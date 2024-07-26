@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <compiler angle="radian" autolimits="true" />
+  <option impratio="10" />
+  <default>
+    <default class="visual">
+      <geom type="mesh" contype="0" conaffinity="0" group="2" />
+    </default>
+    <default class="collision">
+      <geom type="mesh" group="3" />
+    </default>
+  </default>
+
+  <asset>
+    <material name="wood" rgba="0.3 0.2 0.05 1" />
+  </asset>
+</mujocoinclude>
