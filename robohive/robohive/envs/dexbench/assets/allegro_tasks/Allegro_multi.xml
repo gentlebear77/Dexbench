@@ -1,0 +1,37 @@
+<mujoco>
+    <include file="../objects/assets/laptop_dependencies.xml"/>
+    <!-- <include file="../objects/assets/drawerA_dependencies.xml"/> -->
+    <include file="../objects/assets/scissors_dependencies.xml"/>
+    <include file="../objects/assets/block_dependencies.xml"/>
+    <include file="../scene/Adroit_basic_scene.xml"/>
+    <include file="../objects/wonik_allegro/allegro_right.xml"/>
+    <worldbody>
+      <!-- ======= OBJECTS ======= -->
+        <body pos="0 0.8 0">
+            <include file="../objects/assets/laptop.xml"/>
+        </body>
+
+        <!-- <body pos="0.5 -0.2 0" euler="0 0 1.57">
+            <include file="../objects/assets/drawerA.xml"/>
+        </body> -->
+
+        <body pos="0 0.5 0.2" euler="0 0 1.57">
+         <freejoint/>
+            <include file="../objects/assets/block.xml"/>
+        </body>
+
+        <body  pos="0.5 0.5 0" euler="0 0 3.14">
+        <freejoint/>
+            <inertial pos="0 0 0" mass="0.01" diaginertia="1e-4 1e-4 1e-4"/>
+            <include file="../objects/assets/scissors.xml"/>
+        </body>
+         <!-- ======= MOCAP ======= -->
+        <body name="vive_tracker" pos="0 -0.35 0.25" mocap="true">
+            <inertial pos="0 0 0" mass="0.064" diaginertia="1.70667e-05 1.70667e-05 1.70667e-05" />
+            <geom size="0.03 0.01" type="cylinder" contype="0" conaffinity="0" group="3" rgba="0.3 0.3 0.3 0.3" />
+        </body>
+
+        
+    </worldbody>
+
+</mujoco>

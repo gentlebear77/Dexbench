@@ -1,0 +1,27 @@
+Sat Aug 17 11:08:21 2024
+WARNING: mju_openResource: unknown file 'envs/arms/franka/assets/franka_reach_v0.xml'
+
+Sat Aug 17 11:22:30 2024
+WARNING: mju_openResource: unknown file 'envs/arms/franka/assets/franka_reach_v0.xml'
+
+Sat Aug 17 11:23:51 2024
+WARNING: mju_openResource: unknown file 'envs/arms/franka/assets/../../../../simhive/scene_sim/topfloor_scene.xml'
+
+Sat Aug 17 11:24:59 2024
+ERROR: could not create window
+
+Sat Aug 17 11:25:39 2024
+ERROR: could not create window
+
+Sat Aug 17 11:25:54 2024
+ERROR: could not create window
+
+Sat Aug 17 11:26:37 2024
+ERROR: could not create window
+
+Sat Aug 17 11:27:16 2024
+ERROR: could not create window
+
+Sat Aug 17 11:28:36 2024
+ERROR: could not create window
+
