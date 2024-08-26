@@ -1,3 +1,35 @@
+Metadata-Version: 2.1
+Name: robohive
+Version: 0.7.0
+Summary: A Unified Framework for Robot Learning
+Home-page: https://github.com/vikashplus/robohive.git
+Author: Vikash Kumar
+Author-email: vikahsplus@gmail.com
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: gymnasium==0.29.1
+Requires-Dist: mujoco==3.1.3
+Requires-Dist: dm-control==1.0.16
+Requires-Dist: termcolor
+Requires-Dist: sk-video
+Requires-Dist: flatten_dict
+Requires-Dist: matplotlib
+Requires-Dist: ffmpeg
+Requires-Dist: absl-py
+Requires-Dist: torch
+Requires-Dist: h5py==3.7.0
+Requires-Dist: pink-noise-rl
+Requires-Dist: gitpython
+Provides-Extra: mujoco-py
+Requires-Dist: free-mujoco-py; extra == "mujoco-py"
+Provides-Extra: a0
+Requires-Dist: pycapnp>=1.1.1; extra == "a0"
+Requires-Dist: alephzero; extra == "a0"
+Provides-Extra: encoder
+Requires-Dist: torchvision; extra == "encoder"
+
 <!-- =================================================
 Copyright (C) 2018 Vikash Kumar
 Author  :: Vikash Kumar (vikashplus@gmail.com)
